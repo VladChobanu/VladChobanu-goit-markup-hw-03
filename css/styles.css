@@ -28,9 +28,6 @@ ul {
   box-sizing: border-box;
 }
 
-img {
-}
-
 button {
   font-family: inherit;
 }
@@ -72,9 +69,12 @@ body {
 }
 
 /* Header */
-.head {
+.head{
   display: flex;
   justify-content: space-between;
+ 
+}
+.line{
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -401,7 +401,9 @@ h2 {
   margin-right: 30px;
   margin-bottom: 30px;
   padding-bottom: 20px;
-  border: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
 }
 .project-item:nth-child(3n) {
   margin-right: 0;
