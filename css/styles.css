@@ -354,28 +354,14 @@ body {
   margin-right: 4px;
   margin-left: 4px;
   margin-bottom: 50px;
+  padding: 6px 22px;
 }
  .button:hover,
  .button:focus {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
   border: none;
-}
-.btn-all {
-  width: 73px;
-}
-.btn-webs {
-  width: 125px;
-}
-.btn-addition {
-  width: 112px;
-}
-.btn-design {
-  width: 103px;
-}
-.btn-marketing {
-  width: 130px;
-}
+ }
 /* Projects section */
 
 h2 {
